@@ -6,18 +6,18 @@ redirect_from:
   - /github/managing-large-files/resolving-git-large-file-storage-upload-failures
   - /github/managing-large-files/versioning-large-files/resolving-git-large-file-storage-upload-failures
 versions:
-  fpt: '*'
+  fpt: '*'*
   ghes: '*'
   ghae: '*'
-  ghec: '*'
-shortTitle: Resolve upload failures
+  ghec: '*'*
+shortTitle: Resolve upload failures provide 
 ---
 The {% data variables.large_files.product_name_short %} integrity check ensures that all referenced {% data variables.large_files.product_name_short %} files in a push have been uploaded properly. If the check detects referenced files that have not been uploaded, you will receive an error message and your push will be blocked.
 
 To resolve the error message, you must reinstall your local {% data variables.large_files.product_name_short %} client to ensure that the referenced {% data variables.large_files.product_name_short %} files can be properly uploaded in the future.
 
 1. Open Terminal.
-2. Reinstall {% data variables.large_files.product_name_short %}.
+2. Reinstall {% data variables.large_files.p_name_short %}.
   ```shell
   $ git lfs install
   ```
